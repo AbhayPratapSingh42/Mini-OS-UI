@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browser OS</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+<body>
+  <div id="desktop">
+    <!-- Desktop icon -->
+
+    
+    <!-- <div class="icon">
+      <img src="open-folder.png" alt="Folder" />
+      <p>My Folder</p>
+    </div> -->
+
+    <div class="icon" data-title="Notepad" data-type="notepad" id="notepad">
+      <img src="./assets/note.png" />
+      <p>Notepad</p>
+    </div>
+
+    <div class="icon" data-title="codeX" data-type="codeX" id="codeX">
+      <img src="./assets/editor.png" />
+      <p>CodeX Editor</p>
+    </div>
+
+  <!-- Taskbar -->
+  <div id="taskbar">
+    <div id="window-search">
+      <div class="icon" id="windowbtn">
+        <img src="./assets/microsoft.png" alt="">
+      </div>
+      <input id="searchbar" type="text" placeholder="Type here to search">
+    </div>
+    <div id="open-windows">
+        <div class="icon" data-title="Spotify" data-url="https://open.spotify.com/embed/track/4uLU6hMCjMI75M1A2tKUQC
+">
+            <img src="./assets/spotify.png" />
+        </div>
+        <div class="icon" data-title="Excalidraw" data-url="	https://excalidraw.com">
+            <img src="./assets/excalidraw.png" />
+        </div>
+        <div class="icon" data-title="Sheryians Coding School" data-url="https://www.sheryians.com">
+            <img src="./assets/sheryians.png" />
+        </div>
+        <div class="icon" title="YouTube" data-title="YouTube" data-url="https://www.youtube.com/embed/5qap5aO4i9A
+">
+            <img src="./assets/youtube.png" />
+        </div>
+        <div id="wikipedia" class="icon" data-title="Wikipedia" data-url="	https:www.wikipedia.com">
+            <img src="./assets/wikipedia.png" />
+        </div>
+        <div class="icon" data-title="Calender" data-url="https://calendar.google.com/calendar/embed?" >
+            <img src="./assets/google-calendar.png" />
+        </div>
+    </div>
+    <div class="taskbar-utils-icons">
+      <div class="task-utils">
+      <img src="./assets/weather.png" alt="">
+      <p>35°C</p>
+      <img src="./assets/day-and-night.png" title="Dark-Light Mode" alt="" id="themeToggle">
+      <img src="./assets/wifi-signal.png" title="Wifi" alt=""  id="wifi-icon" >
+      <img src="./assets/medium-volume.png" title="Speakers:100%" alt="" id="speaker-icon">
+      <img src="./assets/half-battery.png" title="Battery" alt="" id="battery-icon">
+      <p>ENG</p>
+      </div>
+      <div id="clock">12:00</div>
+    </div>
+    
+  </div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
